@@ -1,0 +1,27 @@
+{
+  "name": "tpg-laszlo/helper-project",
+  "repositories": [
+    {
+      "type": "package",
+      "package": {
+        "name": "tpg-laszlo/helper",
+        "version": "1.0.0",
+        "type": "helper",
+        "source": {
+          "url": "https://github.com/tpg-laszlo/helper.git",
+          "type": "git",
+          "reference": "main"
+        }
+      }
+    }
+  ],
+  "require": {
+    "tpg-laszlo/helper": "^1",
+    "mongodb/mongodb": "^1.8"
+  },
+  "autoload": {
+    "psr-4": {
+      "CsvRepace\\": "src/"
+    }
+  }
+}
